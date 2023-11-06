@@ -1,0 +1,142 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+:root {
+  --main-color: #000;
+  --text-color:#fff
+}
+/* navbar part */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #333; 
+}
+
+.profile {
+  background-color: #3498db; 
+  clip-path: circle(50%); 
+}
+/* home section */
+.home{
+   flex: 1;
+   /* background-color: var(--main-color); */
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  Accent Color: #FFD700;
+  /* color:#bbb; */
+  
+}
+
+.name{
+  font-weight:500;
+}
+.thick-line{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  width:70px;
+  height:5px;
+}
+.Social {
+  text-align: center;
+  /* margin-top: 20px; */
+}
+
+.Social a {
+  color: #3498db;
+  font-size: 24px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.Social a:hover {
+  color: #207CE5;
+}
+/*  about part*/
+.about{
+  background-color: var(--main-color);
+  /* margin-top:40px; */
+  color:var(--text-color);
+}
+.intro_about{
+  line-height:2rem;
+}
+
+.button_cv , .skill-button {
+  margin-bottom:10px;
+  background-color:var(--text-color);
+  color: var(--main-color);
+  padding: 5px 10px;
+  border: none;
+  margin-right:10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.button_cv a{
+   color: var(--main-color);
+  list-style:none;
+  text-decoration:none;
+}
+.button_cv :hover {
+  animation: glow 0.5s ease infinite alternate;
+}
+/* skill */
+.skill{
+  background-color:#f5f5f5;
+  border:1px solid #ccc;
+  border-radius:5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), -4px -4px 10px rgba(255, 255, 255, 0.2);
+
+   /* box-shadow: 2px -10px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.Type{
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+ /* padding:5px 0; */
+  bottom: 0px;
+  background-color: #333333;
+  color: var(--text-color);
+  
+}
+
+
+/*  contact part*/
+.contact{
+  Background: #1E1E1E;
+  color: #FFFFFF;
+  Accent Color: #FF5733;
+}
+.prjct{
+  Background: #1E1E1E;
+  color: #FFFFFF;
+  Accent Color: #FF5733;
+  /* margin-left:30px; */
+}
+.about_prjct{
+  text-align:justify;
+}
+.img_prjct img {
+  margin-top:30px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  
+}
+
+/* Styles for screens larger than 768px */
+@media screen and (min-width: 769px) {
+  /* Add your styles for larger screens here */
+}
